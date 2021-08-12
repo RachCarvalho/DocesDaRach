@@ -1,0 +1,247 @@
+#header .active{
+  position: fixed;
+  box-shadow: 0 0 10px 0 #c0c0c0;
+  z-index: 9999;
+}
+
+#header .navbar{
+    width: 100%;
+    background:#fffeea;
+    transition: background ease-out 0.2s;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+#header .navbar-collapse{
+width: auto;
+}
+
+#header .form-control::placeholder {
+  font-weight: 300;
+}
+
+#header .nav-link {
+    font-weight: 500;
+}
+
+#header .btn:hover {
+  background-color: #e9fdf1;
+  color: #376d4d;
+  font-weight: 700;
+}
+
+#slider{
+    padding-top: 7rem;
+    background-color: #fffeea;
+}
+
+#slider h1 {
+  
+  font-family: Dancing script;
+  color: rgb(123 81 18);
+}
+
+#slider h4 {
+  font-weight: 200;
+  color: rgb(123 81 18);
+}
+
+#produtos{
+    background-image: url(../assets/bg.jpg);
+    padding-bottom: 2rem;
+}
+
+#produtos .card{
+    box-shadow: 8px 8px 8px #888888;
+    text-decoration: none;
+    transition: all ease-out 0.2s;
+    color: rgb(123 81 18);
+}
+
+#produtos .card:hover{
+  z-index: 9;
+  transform: scale(1.3);
+}
+
+#produtos .card-title{
+    font-weight: 600;
+    color: rgb(214 141 32);
+}
+
+#produtos .title{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+#produtos .btn{
+    font-weight: 500;
+    margin-top: 2rem;
+    background: rgb(254 239 198);
+    color: rgb(214 141 32);
+}
+
+#produtos .btn:hover {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  background-color: #e9fdf1;
+  color: #376d4d;
+  font-weight: 700;
+}
+
+#historia{
+    background-color: #fef6f6;
+    padding-bottom: 2rem;
+}
+
+#historia .title{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+#historia .texto{
+  text-align: justify;
+  color: rgb(123 81 18);
+}
+
+#servicos {
+    background-image: url(../assets/servicos/servicos-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+#servicos .title{
+    padding-top: 2rem;    
+}
+
+#servicos a.destaque {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    color: #000;
+    text-decoration: none;
+    transition: all ease-out 0.2s;
+  }
+  
+  #servicos a.destaque:hover {
+    background: transparent;
+    transform: scale(1.05);
+  }
+  
+  #servicos a.destaque .img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+  }
+  
+  #servicos a.destaque .img-container img {
+    max-height: 160px;
+  }
+  #servicos a.badge {
+    text-decoration: none;
+  }
+  #servicos a.badge:hover {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  }
+
+#depoimentos{
+   background-color: #fffeea;
+   padding-bottom: 2rem;
+}
+
+#depoimentos .card{
+    
+    background-color: transparent;
+}
+
+  #depoimentos .title{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+  
+#depoimentos .depoimento-texto{
+    padding-bottom: 0;
+    margin-bottom: 0;
+    min-height: 12rem;
+    color:#62466d;
+}
+  
+#depoimentos .name {
+    color: #9373a0;
+    font-weight: 700;
+}
+
+#contato{
+  background-image: url(../assets/bg.jpg);
+  padding-bottom: 2rem;
+}
+
+#contato .title{
+  padding-top: 1rem;
+}
+
+#contato .form-control{
+    background: rgb(236, 238, 236);
+    font-weight: 400;
+  }
+
+  #contato .form-label{
+   color: rgb(43, 131, 102);
+    font-weight: 400;
+  }
+  
+  #contato .form-control::placeholder {
+   color: #000000;
+   font-weight: 300;
+  }
+  #contato .btn{
+    margin-top: 2rem;
+    background: rgb(236, 238, 236); ;
+  }
+
+  #contato .btn:hover {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    background-color: #e9fdf1;
+    color: #376d4d;
+    font-weight: 700;
+  }
+
+  #footer {
+    background-color: rgb(255, 246, 255);
+  }
+  
+  #footer ul {
+    /* margin: 0;
+    padding: 0; */
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  #footer ul li {
+    display: flex;
+    list-style-type: none;
+    margin-left: 16px;
+  }
+  
+  #footer ul li:first-child {
+    margin-left: 0;
+  }
+  
+  #footer ul li a {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    transition: all ease-out 0.2s;
+  }
+  
+  #footer ul li a:hover {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+  }
+  
+  #footer .col-12 {
+    color: #932552;
+  }
